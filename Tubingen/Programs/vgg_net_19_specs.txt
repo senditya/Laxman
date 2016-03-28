@@ -1,0 +1,484 @@
+1
+
+ans = 
+
+        name: 'conv1_1'
+        type: 'conv'
+     weights: {[4-D single]  [64x1 single]}
+        size: [3 3 3 64]
+         pad: [1 1 1 1]
+      stride: [1 1]
+        opts: {}
+    precious: 0
+
+2
+
+ans = 
+
+        name: 'relu1_1'
+        type: 'relu'
+        leak: 0
+    precious: 0
+
+3
+
+ans = 
+
+        name: 'conv1_2'
+        type: 'conv'
+     weights: {[4-D single]  [64x1 single]}
+        size: [3 3 64 64]
+         pad: [1 1 1 1]
+      stride: [1 1]
+        opts: {}
+    precious: 0
+
+4
+
+ans = 
+
+        name: 'relu1_2'
+        type: 'relu'
+        leak: 0
+    precious: 0
+
+5
+
+ans = 
+
+        name: 'pool1'
+        type: 'pool'
+      method: 'max'
+        pool: [2 2]
+      stride: [2 2]
+         pad: [0 1 0 1]
+        opts: {}
+    precious: 0
+
+6
+
+ans = 
+
+        name: 'conv2_1'
+        type: 'conv'
+     weights: {[4-D single]  [128x1 single]}
+        size: [3 3 64 128]
+         pad: [1 1 1 1]
+      stride: [1 1]
+        opts: {}
+    precious: 0
+
+7
+
+ans = 
+
+        name: 'relu2_1'
+        type: 'relu'
+        leak: 0
+    precious: 0
+
+8
+
+ans = 
+
+        name: 'conv2_2'
+        type: 'conv'
+     weights: {[4-D single]  [128x1 single]}
+        size: [3 3 128 128]
+         pad: [1 1 1 1]
+      stride: [1 1]
+        opts: {}
+    precious: 0
+
+9
+
+ans = 
+
+        name: 'relu2_2'
+        type: 'relu'
+        leak: 0
+    precious: 0
+
+10
+
+ans = 
+
+        name: 'pool2'
+        type: 'pool'
+      method: 'max'
+        pool: [2 2]
+      stride: [2 2]
+         pad: [0 1 0 1]
+        opts: {}
+    precious: 0
+
+11
+
+ans = 
+
+        name: 'conv3_1'
+        type: 'conv'
+     weights: {[4-D single]  [256x1 single]}
+        size: [3 3 128 256]
+         pad: [1 1 1 1]
+      stride: [1 1]
+        opts: {}
+    precious: 0
+
+12
+
+ans = 
+
+        name: 'relu3_1'
+        type: 'relu'
+        leak: 0
+    precious: 0
+
+13
+
+ans = 
+
+        name: 'conv3_2'
+        type: 'conv'
+     weights: {[4-D single]  [256x1 single]}
+        size: [3 3 256 256]
+         pad: [1 1 1 1]
+      stride: [1 1]
+        opts: {}
+    precious: 0
+
+14
+
+ans = 
+
+        name: 'relu3_2'
+        type: 'relu'
+        leak: 0
+    precious: 0
+
+15
+
+ans = 
+
+        name: 'conv3_3'
+        type: 'conv'
+     weights: {[4-D single]  [256x1 single]}
+        size: [3 3 256 256]
+         pad: [1 1 1 1]
+      stride: [1 1]
+        opts: {}
+    precious: 0
+
+16
+
+ans = 
+
+        name: 'relu3_3'
+        type: 'relu'
+        leak: 0
+    precious: 0
+
+17
+
+ans = 
+
+        name: 'conv3_4'
+        type: 'conv'
+     weights: {[4-D single]  [256x1 single]}
+        size: [3 3 256 256]
+         pad: [1 1 1 1]
+      stride: [1 1]
+        opts: {}
+    precious: 0
+
+18
+
+ans = 
+
+        name: 'relu3_4'
+        type: 'relu'
+        leak: 0
+    precious: 0
+
+19
+
+ans = 
+
+        name: 'pool3'
+        type: 'pool'
+      method: 'max'
+        pool: [2 2]
+      stride: [2 2]
+         pad: [0 1 0 1]
+        opts: {}
+    precious: 0
+
+20
+
+ans = 
+
+        name: 'conv4_1'
+        type: 'conv'
+     weights: {[4-D single]  [512x1 single]}
+        size: [3 3 256 512]
+         pad: [1 1 1 1]
+      stride: [1 1]
+        opts: {}
+    precious: 0
+
+21
+
+ans = 
+
+        name: 'relu4_1'
+        type: 'relu'
+        leak: 0
+    precious: 0
+
+22
+
+ans = 
+
+        name: 'conv4_2'
+        type: 'conv'
+     weights: {[4-D single]  [512x1 single]}
+        size: [3 3 512 512]
+         pad: [1 1 1 1]
+      stride: [1 1]
+        opts: {}
+    precious: 0
+
+23
+
+ans = 
+
+        name: 'relu4_2'
+        type: 'relu'
+        leak: 0
+    precious: 0
+
+24
+
+ans = 
+
+        name: 'conv4_3'
+        type: 'conv'
+     weights: {[4-D single]  [512x1 single]}
+        size: [3 3 512 512]
+         pad: [1 1 1 1]
+      stride: [1 1]
+        opts: {}
+    precious: 0
+
+25
+
+ans = 
+
+        name: 'relu4_3'
+        type: 'relu'
+        leak: 0
+    precious: 0
+
+26
+
+ans = 
+
+        name: 'conv4_4'
+        type: 'conv'
+     weights: {[4-D single]  [512x1 single]}
+        size: [3 3 512 512]
+         pad: [1 1 1 1]
+      stride: [1 1]
+        opts: {}
+    precious: 0
+
+27
+
+ans = 
+
+        name: 'relu4_4'
+        type: 'relu'
+        leak: 0
+    precious: 0
+
+28
+
+ans = 
+
+        name: 'pool4'
+        type: 'pool'
+      method: 'max'
+        pool: [2 2]
+      stride: [2 2]
+         pad: [0 1 0 1]
+        opts: {}
+    precious: 0
+
+29
+
+ans = 
+
+        name: 'conv5_1'
+        type: 'conv'
+     weights: {[4-D single]  [512x1 single]}
+        size: [3 3 512 512]
+         pad: [1 1 1 1]
+      stride: [1 1]
+        opts: {}
+    precious: 0
+
+30
+
+ans = 
+
+        name: 'relu5_1'
+        type: 'relu'
+        leak: 0
+    precious: 0
+
+31
+
+ans = 
+
+        name: 'conv5_2'
+        type: 'conv'
+     weights: {[4-D single]  [512x1 single]}
+        size: [3 3 512 512]
+         pad: [1 1 1 1]
+      stride: [1 1]
+        opts: {}
+    precious: 0
+
+32
+
+ans = 
+
+        name: 'relu5_2'
+        type: 'relu'
+        leak: 0
+    precious: 0
+
+33
+
+ans = 
+
+        name: 'conv5_3'
+        type: 'conv'
+     weights: {[4-D single]  [512x1 single]}
+        size: [3 3 512 512]
+         pad: [1 1 1 1]
+      stride: [1 1]
+        opts: {}
+    precious: 0
+
+34
+
+ans = 
+
+        name: 'relu5_3'
+        type: 'relu'
+        leak: 0
+    precious: 0
+
+35
+
+ans = 
+
+        name: 'conv5_4'
+        type: 'conv'
+     weights: {[4-D single]  [512x1 single]}
+        size: [3 3 512 512]
+         pad: [1 1 1 1]
+      stride: [1 1]
+        opts: {}
+    precious: 0
+
+36
+
+ans = 
+
+        name: 'relu5_4'
+        type: 'relu'
+        leak: 0
+    precious: 0
+
+37
+
+ans = 
+
+        name: 'pool5'
+        type: 'pool'
+      method: 'max'
+        pool: [2 2]
+      stride: [2 2]
+         pad: [0 1 0 1]
+        opts: {}
+    precious: 0
+
+38
+
+ans = 
+
+        name: 'fc6'
+        type: 'conv'
+     weights: {[4-D single]  [4096x1 single]}
+        size: [7 7 512 4096]
+         pad: [0 0 0 0]
+      stride: [1 1]
+        opts: {}
+    precious: 0
+
+39
+
+ans = 
+
+        name: 'relu6'
+        type: 'relu'
+        leak: 0
+    precious: 0
+
+40
+
+ans = 
+
+        name: 'fc7'
+        type: 'conv'
+     weights: {[4-D single]  [4096x1 single]}
+        size: [1 1 4096 4096]
+         pad: [0 0 0 0]
+      stride: [1 1]
+        opts: {}
+    precious: 0
+
+41
+
+ans = 
+
+        name: 'relu7'
+        type: 'relu'
+        leak: 0
+    precious: 0
+
+42
+
+ans = 
+
+        name: 'fc8'
+        type: 'conv'
+     weights: {[4-D single]  [1000x1 single]}
+        size: [1 1 4096 1000]
+         pad: [0 0 0 0]
+      stride: [1 1]
+        opts: {}
+    precious: 0
+
+43
+
+ans = 
+
+        name: 'prob'
+        type: 'softmax'
+         pad: 0
+      stride: 1
+        opts: {}
+    precious: 0

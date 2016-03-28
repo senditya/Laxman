@@ -1,0 +1,13 @@
+README:
+
+vgg_net_19_specs.txt - description of the layers for 44 layers of VGG-19
+
+constants.m - file to set up all constants for the implementation
+
+get_style.m - function to obtain the style matrix from an activation layer
+get_contentGrad.m - function to obtain the gradient of error with respect to the activation layer for content
+get_styleGrad.m - function to obtain the gradient of error with respect to the activation layer for style
+
+initialize.m - script to load required images and VGG-network
+optimize.m - function to perform a single iteration of gradient descent using gradients for both style and content
+run.m - script to call initialize.m and perform gradient descent to render required image
