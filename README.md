@@ -7,4 +7,9 @@ My proposed way of approach will be to separate the style and content in an imag
 
 Here is a very small presentation with some images to clarify my approach: https://github.com/shiladityasen/Laxman/blob/master/presentation.key
 
-The work by Gatys, Ecker and Bethge [1] uses a convolutional neural network, specifically VGG-Net for separating the style and content. I have used the publicly available pre-trained VGG-19 model by the MatConvNet[2] as a plugin with Matlab. Details about the code written by me to reproduce the results obtained in [1] are available in the directory Tubingen/Programs
+The work by Gatys, Ecker and Bethge [1] uses a convolutional neural network, specifically VGG-Net for separating the style and content. I have used the publicly available pre-trained VGG-19[2] model by the MatConvNet[3] as a plugin with Matlab. Details about the code written by me to reproduce the results obtained in [1] are available in the directory Tubingen/Programs
+
+
+1. A Neural Algorithm of Artistic Style: Leon A. Gatys, Alexander S. Ecker, Matthias Bethge, arXiv:1508.06576
+2. Very Deep Convolutional Networks for Large-Scale Image Recognition: Karen Simonyan and Andrew Zisserman, arXiv technical report, 2014
+3. http://www.vlfeat.org/matconvnet/
